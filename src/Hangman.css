@@ -87,3 +87,11 @@
   transform: translateY(4px);
 }
 
+.lost{
+  color: red;
+
+}
+.won{
+  color: green;
+
+}

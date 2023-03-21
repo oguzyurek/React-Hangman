@@ -67,7 +67,6 @@ class Hangman extends Component {
           {!gameOver ? this.guessedWord() : this.state.answer}
         </p>
         <p className={gameOver ? "lost" : "won"}>{gameState}</p>
-        <div>{gameOver ? `Answer was: ${this.state.answer}` : ""}</div>
         <div>
           <button
             onClick={() => {
